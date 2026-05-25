@@ -13,7 +13,9 @@ function findDuplicates(arr) {
         if (hash[arr[i]] == undefined) {
             RemoveduplicateNum.push(arr[i]);
             hash[arr[i]] = 1;
-        } else {
+        } 
+        
+        else {
             hash[arr[i]]++;
 
             //why 2 because if ant number is more then 2 times then it will be again pushed to array but [5,5,5] in this case we need one value of 5 that is repeated
