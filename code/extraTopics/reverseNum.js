@@ -1,11 +1,13 @@
+
+
 let digit = 1234561;
-sumofdigit(digit);
-function sumofdigit(d){
-  let sum = 0;
+reverseNum(digit);
+function reverseNum(d){
+  let sum = '';
   let newD = d;
 
   while(newD != 0){
-    sum = sum + (newD%10);
+    sum = sum.concat((newD%10));
     newD = Math.floor(newD / 10);
   }
   console.log(sum)
