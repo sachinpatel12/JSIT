@@ -114,3 +114,4 @@ function myEcommerce_chaining(items) {
 
 // myEcommerce(cartItemsMen);
 myEcommerce_chaining(blankItem);
+//will push [promise changes in future
